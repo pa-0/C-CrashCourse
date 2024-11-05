@@ -1,242 +1,161 @@
-## 介绍 
+## introduce
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E4%BB%8B%E7%BB%8D)
+
+Helping C Beginners Go from Beginner to "Mastery"
+
+[![](https://camo.githubusercontent.com/09606d888445e17eb81b89e4a663fb661a9cbff5527064449cbe52012fabc82f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c616e67756167652d432d6f72616e6765)](https://github.com/pa-0/C-CrashCourse#) [![](https://camo.githubusercontent.com/65000c43545e5a6550cdc7d97145fe7fa46cc0a82297b19b51c6dbef6bd58502/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545352542452541452545342542462541312545352538352541432545342542432539372545352538462542372d2545342542382538442545342542432539412545372542432539362545372541382538422545372539412538342545372541382538422545352542412538462545352539432538362d626c7565)](https://github.com/pa-0/C-CrashCourse#weixin)
+
+[![](https://camo.githubusercontent.com/500a011555873445d36384785e3babd622ee467d3d1e6e832602355dc06a5e20/68747470733a2f2f68616972727272722e6769746875622e696f2f6173736574732f6c6f676f2e706e67)](https://camo.githubusercontent.com/500a011555873445d36384785e3babd622ee467d3d1e6e832602355dc06a5e20/68747470733a2f2f68616972727272722e6769746875622e696f2f6173736574732f6c6f676f2e706e67)
+
+## statement
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E5%A3%B0%E6%98%8E)
+
+Except for a few references to books and technical documents (all noted at the end of the article), the rest of the content of this repository is my original work. When you quote the content of this repository or modify and interpret the content, please sign it and share it in the same way, thank you.
+
+Please indicate the address of the page prominently at the beginning of the reprinted article.
+
+## navigation
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E5%AF%BC%E8%88%AA)
+
+1. [Learn C language](https://github.com/pa-0/C-CrashCourse#catalogue)
+2. [C Q&A](https://github.com/pa-0/C-CrashCourse/blob/master/content/other/Q%26A.md)
+3. [C Classic practice questions](https://github.com/pa-0/C-CrashCourse#practice)
+4. [A mini-game implemented in C](https://github.com/pa-0/C-CrashCourse#game)
+5. [C Curriculum design assignments](https://github.com/pa-0/C-CrashCourse#exam)
+6. [Get free access to the must-read classic eBooks in C](https://github.com/pa-0/C-CrashCourse#get)
+
+## Learn C language
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E5%AD%A6%E4%B9%A0-c-%E8%AF%AD%E8%A8%80)
+
+### C Programming - A Modern Approach Introduction
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#c-%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95-%E5%AF%BC%E8%AF%BB)
+
+This section is mainly excerpted from C Programming - A Modern Approach
+
+1. [Overview of the C language](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/01-C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%AE%BA.md)
+2. [C Basic Concepts 1](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/02-C%E8%AF%AD%E8%A8%80%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
+3. [C Basic Concepts 2](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/03-C%E8%AF%AD%E8%A8%80%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
+4. [Format the input and output](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/04-%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)
+5. [data type](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/05-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.md)
+6. [expression](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/06-%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
+7. [Select the statement](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/07-%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5.md)
+8. [circulate](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/08-%E5%BE%AA%E7%8E%AF.md)
+9. [array](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/09-%E6%95%B0%E7%BB%84.md)
+10. [function](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/10-%E5%87%BD%E6%95%B0.md)
+11. [Program structure](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/11-%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84.md)
+12. [pointer](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/12-%E6%8C%87%E9%92%88.md)
+13. [Pointers and arrays](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/13-%E6%8C%87%E9%92%88%E5%92%8C%E6%95%B0%E7%BB%84.md)
+14. [string](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/14-%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
+15. [Preprocessors](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/15-%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)
+16. [Write large programs](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/16-%E7%BC%96%E5%86%99%E5%A4%A7%E5%9E%8B%E7%A8%8B%E5%BA%8F.md)
+17. [Structure & Union & Enumeration](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/17-%E7%BB%93%E6%9E%84%26%E8%81%94%E5%90%88%26%E6%9E%9A%E4%B8%BE.md)
+18. [Advanced application of pointers](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/18-%E6%8C%87%E9%92%88%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8.md)
+19. [statement](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/19-%E5%A3%B0%E6%98%8E.md)
+20. [programming](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/20-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.md)
+21. [Low-level programming](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/21-%E5%BA%95%E5%B1%82%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.md)
+22. [Inputs/Outputs](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/22-%E8%BE%93%E5%87%BA%26%E8%BE%93%E5%87%BA.md)
+23. [Standard Library](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/23-%E6%A0%87%E5%87%86%E5%BA%93.md)
+24. [Error handling](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-mordern-approch/24-%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
 
-帮助 C 语言初学者的从入门到“精通”
+The introductory and advanced C content comes from my blog
 
-<br>
+### C Beginner Language
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#c-%E8%AF%AD%E8%A8%80%E5%88%9D%E9%98%B6)
 
-<div align="center">
-    <a href="#"> <img src="https://img.shields.io/badge/language-C-orange"></a>
-    <a href="#weixin"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%8D%E4%BC%9A%E7%BC%96%E7%A8%8B%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%9C%86-blue"></a>
-</div>
+This section is my summary of the basics of the C language.
 
-<br>
+1. [Data types and variables](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-review/1-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%8F%98%E9%87%8F.md)
+2. [array](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-review/2-%E6%95%B0%E7%BB%84.md)
+3. [Branching and looping](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-review/3-%E5%88%86%E6%94%AF%E5%92%8C%E5%BE%AA%E7%8E%AF.md)
+4. [function](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-review/4-%E5%87%BD%E6%95%B0.md)
+5. [pointer](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-review/5-%E6%8C%87%E9%92%88.md)
+6. [operator](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-review/6-%E6%93%8D%E4%BD%9C%E7%AC%A6.md)
 
-<div align="center">
-    <img src="https://hairrrrr.github.io/assets/logo.png" width="200px">
-</div>
+### C language advanced
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#c-%E8%AF%AD%E8%A8%80%E8%BF%9B%E9%98%B6)
 
-<br>
+1. [Understand what malloc is in 5 minutes](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/5%E5%88%86%E9%92%9F%E7%9C%8B%E6%87%82%E4%BB%80%E4%B9%88%E6%98%AF%20malloc.md)
+2. [C language documents are enough to read this one](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/C%E8%AF%AD%E8%A8%80%20%E6%96%87%E4%BB%B6%20%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
+3. [An article to understand the commonly used string functions in the C language, the most complete organization on the whole network](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E4%B8%80%E7%AF%87%E7%9C%8B%E6%87%82%20C%E8%AF%AD%E8%A8%80%E5%B8%B8%E7%94%A8%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0%EF%BC%8C%E5%85%A8%E7%BD%91%E6%9C%80%E5%85%A8%E6%95%B4%E7%90%86%EF%BC%81.md)
+4. [What is Enumeration & Structure & Union, just look at this one](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E4%BB%80%E4%B9%88%20%E6%98%AF%20%E6%9E%9A%E4%B8%BE%20%26%20%E7%BB%93%E6%9E%84%20%26%20%E8%81%94%E5%90%88%EF%BC%8C%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
+5. [What is Global Variable & Macro & How to write a large program, just read this article](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E4%BB%80%E4%B9%88%E6%98%AF%20%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F%20%26%20%E5%AE%8F%20%26%20%E5%A4%A7%E7%A8%8B%E5%BA%8F%E6%80%8E%E4%B9%88%E5%86%99%EF%BC%8C%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
+6. [There are several prime number judgment methods that you don't know, from shallow to deep, explained in detail.](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%87%A0%E7%A7%8D%E7%B4%A0%E6%95%B0%E5%88%A4%E6%96%AD%E6%96%B9%E6%B3%95%EF%BC%8C%E7%94%B1%E6%B5%85%E5%85%A5%E6%B7%B1%EF%BC%8C%E8%AF%A6%E8%A7%A3.md)
+7. [What you don't know about strings](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E5%85%B3%E4%BA%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9.md)
+8. [Memory alignment](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90.md)
+9. [Dynamic memory management](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.md)
+10. [String functions vs. memory functions](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0%E4%B8%8E%E5%86%85%E5%AD%98%E5%87%BD%E6%95%B0.md)
+11. [Little-endianized and integer storage](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E5%B0%8F%E7%AB%AF%E5%92%8C%E6%95%B4%E5%9E%8B%E5%AD%98%E5%82%A8.md)
+12. [The pointer is advanced](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E6%8C%87%E9%92%88%E8%BF%9B%E9%98%B6.md)
+13. [About the pointer](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E6%9C%89%E5%85%B3%E6%8C%87%E9%92%88.md)
+14. [A brief introduction to C language implementation overloads, polymorphisms, and templates](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E6%B5%85%E8%B0%88%20C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%87%8D%E8%BD%BD%EF%BC%8C%E5%A4%9A%E6%80%81%E5%92%8C%E6%A8%A1%E6%9D%BF.md)
+15. [Do you know all these basic points about arrays?](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E8%BF%99%E4%BA%9B%E5%85%B3%E4%BA%8E%E6%95%B0%E7%BB%84%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9%E4%BD%A0%E9%83%BD%E7%9F%A5%E9%81%93%E5%90%97.md)
+16. [The basics of functions that we tend to overlook](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-notes/%E9%82%A3%E4%BA%9B%E5%85%B3%E4%BA%8E%E5%87%BD%E6%95%B0%E6%88%91%E4%BB%AC%E5%AE%B9%E6%98%93%E5%BF%BD%E7%95%A5%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 
-## 声明  
+### C Pitfalls and flaws
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#c-%E9%99%B7%E9%98%B1%E4%B8%8E%E7%BC%BA%E9%99%B7)
 
-本仓库内容除了少部分引用书籍和技术文档的部分内容（均在文中末尾指出），其余都是我的原创。在您引用本仓库内容或者对内容进行修改演绎时，请署名并以相同方式共享，谢谢。
+This part is from "C Traps and Flaws", and after reading this book, I have a feeling of enlightenment for the mistakes I made before.
 
-转载文章请在开头明显处标明该页面地址。
+- [1. Lexical traps](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/01%20%E8%AF%8D%E6%B3%95%E9%99%B7%E9%98%B1.md)
+- [2. Grammatical traps](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/02%20%E8%AF%AD%E6%B3%95%E9%99%B7%E9%98%B1.md)
+- [3. The semantic trap](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/03%20%E8%AF%AD%E4%B9%89%E9%99%B7%E9%98%B1.md)
+- [4. Connections](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/04%20%E8%BF%9E%E6%8E%A5.md)
+- [5. Library functions](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/05%20%E5%BA%93%E5%87%BD%E6%95%B0.md)
+- [6. Preprocessors](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/06%20%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)
+- [VII. Transplantable defects](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/07%20%E5%8F%AF%E7%A7%BB%E6%A4%8D%E6%80%A7%E7%BC%BA%E9%99%B7.md)
+- [VIII. Recommendations](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/08%20%E5%BB%BA%E8%AE%AE.md)
 
-<br>
+### C Classic practice questions
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#c-%E7%BB%8F%E5%85%B8%E7%BB%83%E4%B9%A0%E9%A2%98)
 
-<div>
+* * *
 
-## 导航
+<markdown-accessiblity-table data-catalyst="" style="box-sizing: border-box; display: block;"><table style="box-sizing: border-box; border-spacing: 0px; border-collapse: collapse; margin-top: 0px; margin-bottom: var(--base-size-16); display: block; width: max-content; max-width: 100%; overflow: auto;"><thead style="box-sizing: border-box;"><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><th _msttexthash="114348" _msthash="373" style="box-sizing: border-box; padding: 6px 13px; font-weight: var(--base-text-weight-semibold, 600); border: 1px solid var(--borderColor-default, var(--color-border-default));">practice</th><th _msttexthash="138346" _msthash="374" style="box-sizing: border-box; padding: 6px 13px; font-weight: var(--base-text-weight-semibold, 600); border: 1px solid var(--borderColor-default, var(--color-border-default));">introduce</th><th _msttexthash="162890" _msthash="375" style="box-sizing: border-box; padding: 6px 13px; font-weight: var(--base-text-weight-semibold, 600); border: 1px solid var(--borderColor-default, var(--color-border-default));">difficulty</th></tr></thead><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="1744496" _msthash="376" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">1</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/blob/master/Coding/Practice/string" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Common string/memory function implementations</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="444769" _msthash="377" style="box-sizing: border-box;">Main implementations:</font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">strlen/strcpy/strcmp/strcat/strstr/memcpy/memmove</code></td><td _msttexthash="3459456" _msthash="378" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="374517" _msthash="379" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">2</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/06%20%E5%BE%AA%E7%8E%AF/01%20%E8%B4%A6%E7%B0%BF%E8%AE%A1%E7%AE%97" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Book calculations</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="530764" _msthash="380" style="box-sizing: border-box;">Practice the use of loops ()</font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">while, switch</code></td><td _msttexthash="1009008" _msthash="381" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="564200" _msthash="382" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">3</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/08%20%E6%95%B0%E7%BB%84" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Calculate Interest &gt; Deal</a></td><td _msttexthash="538265" _msthash="383" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Practice the use of arrays</td><td _msttexthash="1009008" _msthash="384" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="279409" _msthash="385" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">4</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/09%20%E5%87%BD%E6%95%B0/01%20%E5%88%A4%E5%AE%9A%E7%B4%A0%E6%95%B0" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Judgment prime</a></td><td _msttexthash="665769" _msthash="386" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Practice the use of functions</td><td _msttexthash="1009008" _msthash="387" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="1122966" _msthash="388" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">5</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/10%20%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Guess the number &gt; Hand classification</a></td><td _msttexthash="3734003" _msthash="389" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Practice the use of global variables (Extended: How to replace global variables)</td><td _msttexthash="13066482" _msthash="390" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐ (Guess the number) ⭐⭐⭐ (Hand classification)</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="1534871" _msthash="391" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">6</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/11%20%E6%8C%87%E9%92%88/01%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%92%8C%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">The largest and smallest elements of the array</a></td><td _msttexthash="393939" _msthash="392" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Learn about pointers</td><td _msttexthash="1009008" _msthash="393" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="883844" _msthash="394" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">7</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/13%20%E5%AD%97%E7%AC%A6%E4%B8%B2/01%20%E8%AE%BE%E8%AE%A1%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%AF%BB%E5%8F%96%E5%87%BD%E6%95%B0" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Design a string reading function</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="4855214" _msthash="395" style="box-sizing: border-box;">Understand the meaning of string read functions, string properties (endings), and meanings</font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">getchar</code><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">\0</code><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">EOF</code></td><td _msttexthash="1009008" _msthash="396" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="892229" _msthash="397" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">8</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/13%20%E5%AD%97%E7%AC%A6%E4%B8%B2/02%20%E6%98%BE%E7%A4%BA%E4%B8%80%E4%B8%AA%E6%9C%88%E7%9A%84%E6%8F%90%E9%86%92%E5%88%97%E8%A1%A8" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Displays a reminder for one month</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="3484949" _msthash="398" style="box-sizing: border-box;">Understand the use of string functions combined with knowledge of arrays (2D).</font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">strcpy/strcat/strcmp</code></td><td _msttexthash="2162160" _msthash="399" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="508651" _msthash="400" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">10</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/13%20%E5%AD%97%E7%AC%A6%E4%B8%B2/03%20%E6%A0%B8%E5%AF%B9%E8%A1%8C%E6%98%9F%E5%90%8D%E5%AD%97" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Check the planet names</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="3174925" _msthash="401" style="box-sizing: border-box;">Understand the meaning of (string) pointer arrays, function parameters</font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">main</code></td><td _msttexthash="2162160" _msthash="402" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="339066" _msthash="403" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">11</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/15%20%E7%BC%96%E5%86%99%E5%A4%A7%E5%9E%8B%E7%A8%8B%E5%BA%8F/01%20%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Text formatting</a></td><td _msttexthash="885599" _msthash="404" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Write the first multi-file program</td><td _msttexthash="3459456" _msthash="405" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="628108" _msthash="406" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">12</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/16%20%E7%BB%93%E6%9E%84%26%E8%81%94%E5%90%88%26%E6%9E%9A%E4%B8%BE/01%20%E7%BB%B4%E6%8A%A4%E9%9B%B6%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%BA%93" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Maintain a parts database</a></td><td _msttexthash="809887" _msthash="407" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Learn about structs and their use</td><td _msttexthash="29257098" _msthash="408" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐️⭐️⭐️</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="1155895" _msthash="409" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">13</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/17%20%E6%8C%87%E9%92%88%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/01%20%E6%98%BE%E7%A4%BA%E4%B8%80%E4%B8%AA%E6%9C%88%E7%9A%84%E6%8F%90%E9%86%92%E5%88%97%E8%A1%A8" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Shows a month's worth of reminders pro</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="1621217" _msthash="410" style="box-sizing: border-box;">Learn about dynamic memory allocation functions<span> </span></font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">malloc</code></td><td _msttexthash="2162160" _msthash="411" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="873782" _msthash="412" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">14</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/17%20%E6%8C%87%E9%92%88%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/02%20%E7%BB%B4%E6%8A%A4%E9%9B%B6%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%88%E9%93%BE%E8%A1%A8%EF%BC%89" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Maintain the parts database pro</a></td><td _msttexthash="1300364" _msthash="413" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Learn about linked lists as a data structure</td><td _msttexthash="29257098" _msthash="414" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐️⭐️⭐️</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="516698" _msthash="415" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">15</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/19%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/01%20%E6%A0%88%E7%9A%84%E5%AE%9E%E7%8E%B0/01%20%E6%A0%88%E6%A8%A1%E5%9D%97" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Stack implementation</a></td><td _msttexthash="2052440" _msthash="416" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Array implementations and linked list implementations</td><td _msttexthash="2162160" _msthash="417" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="642980" _msthash="418" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">16</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/19%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/01%20%E6%A0%88%E7%9A%84%E5%AE%9E%E7%8E%B0/02%20%E6%A0%88%E6%8A%BD%E8%B1%A1%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Stack abstract data types</a></td><td _msttexthash="1079611" _msthash="419" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Understanding Abstract Data Types (ADTs)</td><td _msttexthash="29257098" _msthash="420" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐️⭐️⭐️</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="946725" _msthash="421" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">17</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/20%20%E5%BA%95%E5%B1%82%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">XOR Encryption &amp; View Memory Units</a></td><td _msttexthash="2407600" _msthash="422" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">Knowledge of low-level programming (bitwise arithmetic, etc.)</td><td _msttexthash="2162160" _msthash="423" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="346892" _msthash="424" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">18</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/22%20%E8%BE%93%E5%85%A5%26%E8%BE%93%E5%87%BA" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Input and output</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="1831193" _msthash="425" style="box-sizing: border-box;">Knowledge of C input/output, file manipulation (, etc.)</font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">fopen/fclose</code><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">fread/fwrite</code></td><td _msttexthash="2162160" _msthash="426" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td _msttexthash="299962" _msthash="427" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><strong _istranslated="1" style="box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);">19</strong>.<span> </span><a href="https://github.com/pa-0/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/24%20%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86" _istranslated="1" style="box-sizing: border-box; background-color: transparent; color: var(--fgColor-accent, var(--color-accent-fg)); text-decoration: underline; text-underline-offset: 0.2rem; margin-bottom: 0px;">Error handling</a></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"><font _mstmutation="1" _msttexthash="2071407" _msthash="428" style="box-sizing: border-box;">A brief understanding of the meaning of functions such as ,<span> </span></font><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">signal</code><code style="box-sizing: border-box; font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace); font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; white-space: break-spaces; background-color: var(--bgColor-neutral-muted, var(--color-neutral-muted)); border-radius: 6px;">setjump/longjump</code></td><td _msttexthash="2162160" _msthash="429" style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));">⭐⭐</td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-muted, var(--color-canvas-subtle)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td></tr><tr style="box-sizing: border-box; background-color: var(--bgColor-default, var(--color-canvas-default)); border-top: 1px solid var(--borderColor-muted, var(--color-border-muted));"><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td><td style="box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--borderColor-default, var(--color-border-default));"></td></tr></tbody></table></markdown-accessiblity-table>
 
-1.  <a  href="#catalogue">学习 C 语言</a>
-2. <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/other/Q%26A.md">C 语言 Q&A</a>
-3. <a href="#practice">C 经典练习题</a>
-4. <a href="#game">用 C 实现的小游戏</a>
-5. <a href="#exam">C 课程设计作业 </a>
-6. <a href="#get">免费获取 C 语言必读经典电子书</a>
+### A mini-game implemented in C
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E7%94%A8-c-%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%B0%8F%E6%B8%B8%E6%88%8F)
 
-</div>
+* * *
 
-<div id="catalogue">
+- [Guess the number](https://github.com/pa-0/C-CrashCourse/blob/master/content/c-games/%E7%8C%9C%E6%95%B0%E5%AD%97.md)
 
-## 学习 C 语言
+https://github.com/pa-0/C-CrashCourse/blob/master
 
+### C Curriculum design assignments
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#c-%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A)
 
+* * *
 
-### C 语言程序设计——现代方法 导读
+- [Contacts (file-based)](https://mp.weixin.qq.com/s/qC0o0Gd7fxFGaCpbJKPdBQ)
+- [Information Management System (Document-Based)](https://mp.weixin.qq.com/s/qen0ub82GCcF4s7RiE0C0A)
 
-这一部分的内容主要摘录自 《C 语言程序设计——现代方法》
+https://github.com/pa-0/C-CrashCourse/blob/master
 
-1. [C语言概述](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/01-C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%AE%BA.md)
-2. [C语言基本概念1](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/02-C%E8%AF%AD%E8%A8%80%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
-3. [C语言基本概念2](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/03-C%E8%AF%AD%E8%A8%80%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
-4. [格式化输入输出](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/04-%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.md)
-5. [数据类型](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/05-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.md)
-6. [表达式](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/06-%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
-7. [选择语句](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/07-%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5.md)
-8. [循环](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/08-%E5%BE%AA%E7%8E%AF.md)
-9. [数组](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/09-%E6%95%B0%E7%BB%84.md)
-10. [函数](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/10-%E5%87%BD%E6%95%B0.md)
-11. [程序结构](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/11-%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84.md)
-12. [指针](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/12-%E6%8C%87%E9%92%88.md)
-13. [指针和数组](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/13-%E6%8C%87%E9%92%88%E5%92%8C%E6%95%B0%E7%BB%84.md)
-14. [字符串](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/14-%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
-15. [预处理器](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/15-%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md)
-16. [编写大型程序](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/16-%E7%BC%96%E5%86%99%E5%A4%A7%E5%9E%8B%E7%A8%8B%E5%BA%8F.md)
-17. [结构&联合&枚举](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/17-%E7%BB%93%E6%9E%84%26%E8%81%94%E5%90%88%26%E6%9E%9A%E4%B8%BE.md)
-18. [指针的高级应用](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/18-%E6%8C%87%E9%92%88%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8.md)
-19. [声明](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/19-%E5%A3%B0%E6%98%8E.md)
-20. [程序设计](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/20-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.md)
-21. [底层程序设计](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/21-%E5%BA%95%E5%B1%82%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.md)
-22. [输入/输出](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/22-%E8%BE%93%E5%87%BA%26%E8%BE%93%E5%87%BA.md)
-23. [标准库](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/23-%E6%A0%87%E5%87%86%E5%BA%93.md)
-24. [错误处理](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-mordern-approch/24-%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.md)
+## Resources
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
 
-</div>
+The following rankings are in no particular order, thanks to these excellent authors, teachers, and websites.
 
-C 语言初阶和进阶的内容来自我的博客
-
-### C 语言初阶
-
-这一部分是我对 C 语言的基础知识部分的总结。
-
-1. [数据类型和变量](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-review/1-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%8F%98%E9%87%8F.md)
-2. [数组](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-review/2-%E6%95%B0%E7%BB%84.md)
-3. [分支和循环](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-review/3-%E5%88%86%E6%94%AF%E5%92%8C%E5%BE%AA%E7%8E%AF.md)
-4. [函数](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-review/4-%E5%87%BD%E6%95%B0.md)
-5. [指针](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-review/5-%E6%8C%87%E9%92%88.md)
-6. [操作符](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-review/6-%E6%93%8D%E4%BD%9C%E7%AC%A6.md)
-
-### C 语言进阶
-
-1. [5分钟看懂什么是 malloc](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/5%E5%88%86%E9%92%9F%E7%9C%8B%E6%87%82%E4%BB%80%E4%B9%88%E6%98%AF%20malloc.md)
-2. [C语言 文件 看这一篇就够了](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/C%E8%AF%AD%E8%A8%80%20%E6%96%87%E4%BB%B6%20%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
-3. [一篇看懂 C语言常用 字符串函数，全网最全整理](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E4%B8%80%E7%AF%87%E7%9C%8B%E6%87%82%20C%E8%AF%AD%E8%A8%80%E5%B8%B8%E7%94%A8%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0%EF%BC%8C%E5%85%A8%E7%BD%91%E6%9C%80%E5%85%A8%E6%95%B4%E7%90%86%EF%BC%81.md)
-4. [什么 是 枚举 & 结构 & 联合，看这一篇就够了](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E4%BB%80%E4%B9%88%20%E6%98%AF%20%E6%9E%9A%E4%B8%BE%20%26%20%E7%BB%93%E6%9E%84%20%26%20%E8%81%94%E5%90%88%EF%BC%8C%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
-5. [什么是 全局变量 & 宏 & 大程序怎么写，看这一篇就够了](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E4%BB%80%E4%B9%88%E6%98%AF%20%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F%20%26%20%E5%AE%8F%20%26%20%E5%A4%A7%E7%A8%8B%E5%BA%8F%E6%80%8E%E4%B9%88%E5%86%99%EF%BC%8C%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
-6. [你不知道的几种素数判断方法，由浅入深，详解.](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%87%A0%E7%A7%8D%E7%B4%A0%E6%95%B0%E5%88%A4%E6%96%AD%E6%96%B9%E6%B3%95%EF%BC%8C%E7%94%B1%E6%B5%85%E5%85%A5%E6%B7%B1%EF%BC%8C%E8%AF%A6%E8%A7%A3.md)
-7. [关于字符串你不知道的知识点](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E5%85%B3%E4%BA%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9.md)
-8. [内存对齐](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90.md)
-9. [动态内存管理](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.md)
-10. [字符串函数与内存函数](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0%E4%B8%8E%E5%86%85%E5%AD%98%E5%87%BD%E6%95%B0.md)
-11. [小端和整型存储](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E5%B0%8F%E7%AB%AF%E5%92%8C%E6%95%B4%E5%9E%8B%E5%AD%98%E5%82%A8.md)
-12. [指针进阶](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E6%8C%87%E9%92%88%E8%BF%9B%E9%98%B6.md)
-13. [有关指针](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E6%9C%89%E5%85%B3%E6%8C%87%E9%92%88.md)
-14. [浅谈 C 语言实现重载，多态和模板](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E6%B5%85%E8%B0%88%20C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%87%8D%E8%BD%BD%EF%BC%8C%E5%A4%9A%E6%80%81%E5%92%8C%E6%A8%A1%E6%9D%BF.md)
-15. [这些关于数组的基础知识点你都知道吗](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E8%BF%99%E4%BA%9B%E5%85%B3%E4%BA%8E%E6%95%B0%E7%BB%84%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9%E4%BD%A0%E9%83%BD%E7%9F%A5%E9%81%93%E5%90%97.md)
-16. [那些关于函数我们容易忽略的基础知识](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-notes/%E9%82%A3%E4%BA%9B%E5%85%B3%E4%BA%8E%E5%87%BD%E6%95%B0%E6%88%91%E4%BB%AC%E5%AE%B9%E6%98%93%E5%BF%BD%E7%95%A5%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
-
-
-
-### C 陷阱与缺陷
-
-这一部分内容来自 《C 陷阱与缺陷》，看完这本书我对我之前犯的错误一种醍醐灌顶的感觉。
-
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/01%20%E8%AF%8D%E6%B3%95%E9%99%B7%E9%98%B1.md">一 词法陷阱</a>
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/02%20%E8%AF%AD%E6%B3%95%E9%99%B7%E9%98%B1.md">二 语法陷阱</a>
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/03%20%E8%AF%AD%E4%B9%89%E9%99%B7%E9%98%B1.md">三 语义陷阱</a>
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/04%20%E8%BF%9E%E6%8E%A5.md">四 连接</a>
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/05%20%E5%BA%93%E5%87%BD%E6%95%B0.md">五 库函数</a>
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/06%20%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.md">六 预处理器</a>
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/07%20%E5%8F%AF%E7%A7%BB%E6%A4%8D%E6%80%A7%E7%BC%BA%E9%99%B7.md">七 可移植缺陷</a>
-- [八 建议](https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-traps-and-pitfalls/08%20%E5%BB%BA%E8%AE%AE.md)
-
-
-
-
-</div>
-
-<br>
-
-### C 经典练习题
-
-***
-
-<div id="practice">
-
-
-| 练习                                                         | 介绍                                                         | 难度                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
-| **1**.[常见字符串/内存函数实现](./Coding/Practice/string)    | 主要实现：`strlen/strcpy/strcmp/strcat/strstr/memcpy/memmove` | :star::star::star:                                |
-| **2**.[账簿计算](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/06%20%E5%BE%AA%E7%8E%AF/01%20%E8%B4%A6%E7%B0%BF%E8%AE%A1%E7%AE%97) | 练习循环的使用（`while, switch`）                            | :star:                                            |
-| **3**.[计算利息 && 发牌](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/08%20%E6%95%B0%E7%BB%84) | 练习数组的使用                                               | :star:                                            |
-| **4**.[判定素数](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/09%20%E5%87%BD%E6%95%B0/01%20%E5%88%A4%E5%AE%9A%E7%B4%A0%E6%95%B0) | 练习函数的使用                                               | :star:                                            |
-| **5**.[猜数 && 手牌分类](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/10%20%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84) | 练习全局变量的使用（拓展：如何取代全局变量）                 | :star:(猜数) ​      :star::star::star:（手牌分类） |
-| **6**.[数组的最大元素和最小元素](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/11%20%E6%8C%87%E9%92%88/01%20%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%92%8C%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0) | 了解指针                                                     | :star:                                            |
-| **7**.[设计字符串读取函数](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/13%20%E5%AD%97%E7%AC%A6%E4%B8%B2/01%20%E8%AE%BE%E8%AE%A1%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%AF%BB%E5%8F%96%E5%87%BD%E6%95%B0) | 了解字符串的读取函数 `getchar`，字符串的特性（`\0` 结尾），`EOF` 的含义 | :star:                                            |
-| **8**.[显示一个月的提醒](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/13%20%E5%AD%97%E7%AC%A6%E4%B8%B2/02%20%E6%98%BE%E7%A4%BA%E4%B8%80%E4%B8%AA%E6%9C%88%E7%9A%84%E6%8F%90%E9%86%92%E5%88%97%E8%A1%A8) | 了解字符串函数 `strcpy/strcat/strcmp` 的使用，并结合数组（二维）的知识 | :star::star:                                      |
-| **10**.[核对行星名字](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/13%20%E5%AD%97%E7%AC%A6%E4%B8%B2/03%20%E6%A0%B8%E5%AF%B9%E8%A1%8C%E6%98%9F%E5%90%8D%E5%AD%97) | 了解（字符串）指针数组，`main` 函数的参数的含义              | :star::star:                                      |
-| **11**.[文本格式化](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/15%20%E7%BC%96%E5%86%99%E5%A4%A7%E5%9E%8B%E7%A8%8B%E5%BA%8F/01%20%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96) | 编写第一个多文件程序                                         | :star::star::star:                                |
-| **12**.[维护零件数据库](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/16%20%E7%BB%93%E6%9E%84%26%E8%81%94%E5%90%88%26%E6%9E%9A%E4%B8%BE/01%20%E7%BB%B4%E6%8A%A4%E9%9B%B6%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%BA%93) | 了解结构体及其使用                                           | ⭐️⭐️⭐️                                               |
-| **13**.[显示一个月的提醒 pro](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/17%20%E6%8C%87%E9%92%88%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/01%20%E6%98%BE%E7%A4%BA%E4%B8%80%E4%B8%AA%E6%9C%88%E7%9A%84%E6%8F%90%E9%86%92%E5%88%97%E8%A1%A8) | 了解动态内存分配函数 `malloc`                                | :star::star:                                      |
-| **14**.[维护零件数据库 pro](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/17%20%E6%8C%87%E9%92%88%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/02%20%E7%BB%B4%E6%8A%A4%E9%9B%B6%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%88%E9%93%BE%E8%A1%A8%EF%BC%89) | 了解链表这种数据结构                                         | ⭐️⭐️⭐️                                               |
-| **15**.[栈实现](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/19%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/01%20%E6%A0%88%E7%9A%84%E5%AE%9E%E7%8E%B0/01%20%E6%A0%88%E6%A8%A1%E5%9D%97) | 数组实现和链表实现                                           | :star::star:                                      |
-| **16**.[栈抽象数据类型](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/19%20%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/01%20%E6%A0%88%E7%9A%84%E5%AE%9E%E7%8E%B0/02%20%E6%A0%88%E6%8A%BD%E8%B1%A1%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B) | 了解抽象数据类型（ADT）                                      | ⭐️⭐️⭐️                                               |
-| **17**.[XOR 加密 && 查看内存单元](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/20%20%E5%BA%95%E5%B1%82%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1) | 了解底层程序设计（位运算等）                                 | :star::star:                                      |
-| **18**.[输入输出](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/22%20%E8%BE%93%E5%85%A5%26%E8%BE%93%E5%87%BA) | 了解 C 语言输入输出，文件操作（`fopen/fclose`,`fread/fwrite`等） | :star::star:                                      |
-| **19**.[错误处理](https://github.com/hairrrrr/C-CrashCourse/tree/master/Coding/C_Crash_Course/01%20Examples/24%20%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86) | 简单了解 `signal`，`setjump/longjump` 等函数的含义           | :star::star:                                      |
-|                                                              |                                                              |                                                   |
-|                                                              |                                                              |                                                   |
-|                                                              |                                                              |                                                   |
-
-</div>
-
-</br>
-
-
-
-
-
-
-<div id="game">
-
-### 用 C 实现的小游戏
-
-***
-
-- <a href="https://github.com/hairrrrr/C-CrashCourse/blob/master/content/c-games/%E7%8C%9C%E6%95%B0%E5%AD%97.md">猜数</a>
-
-<a href=""></a>
-
-</div>
-
-
-
-</div>
-
-<br>
-
-### C 课程设计作业
-
-***
-
-<div id="exam">
-
-- <a href="https://mp.weixin.qq.com/s/qC0o0Gd7fxFGaCpbJKPdBQ">通讯录（基于文件）</a>
-- <a href="https://mp.weixin.qq.com/s/qen0ub82GCcF4s7RiE0C0A">信息管理系统（基于文件）</a>
-
-<a href=""></a>
-
-</div>
-
-<br>
-
-
-
-
-
-## 参考资料
-以下排名不分先后，感谢这些优秀的作者，老师和网站。
-- 浙大·翁恺 mooc
-- 《C 语言程序设计——现代方法》
+- Zhejiang University Weng Kai MOOC
+- C Programming – A Modern Approach
 - 《C Primer Plus》
-- 《C 陷阱与缺陷》
-- 《C 专家编程》
-- www.cppreference.com
-- www.cplusplus.com
+- C Traps and Flaws
+- C Expert Programming
+- [www.cppreference.com](http://www.cppreference.com/)
+- [www.cplusplus.com](http://www.cplusplus.com/)
 
+## Get free access to the must-read classic eBooks in C
+[<svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>](https://github.com/pa-0/C-CrashCourse#%E5%85%8D%E8%B4%B9%E8%8E%B7%E5%8F%96-c-%E8%AF%AD%E8%A8%80%E5%BF%85%E8%AF%BB%E7%BB%8F%E5%85%B8%E7%94%B5%E5%AD%90%E4%B9%A6)
 
+<font _mstmutation="1" _msttexthash="7088458" _msthash="449" style="box-sizing: border-box;">If it is infringing, please contact my email shepardwang2020@outlook.com, and I will delete it as soon as possible</font>
+The following books have been collected, and e-books are being added to the repository all the time. If it helps you, please click a star ~ to get help to more people.
 
-## 免费获取 C 语言必读经典电子书
-
-<div id="get">
-如果侵权，请联系我的邮箱 shepardwang2020@outlook.com，我会第一时间删除
-
-下面的书已经收集，并且本仓库还在持续增加电子书。如果对你有帮助，请点一个 star ~ ，让更多的人获得帮助。
-
-- 《C 语言程序设计——现代方法》
+- C Programming – A Modern Approach
 - 《C Primer Plus》
 - 《C primer Plus 第五版课后习题答案》
-- 《C 陷阱与缺陷》
-- 《C 专家编程》
-- 《C 和 指针》
-- 《C 程序设计》（谭浩强）
+- C Traps and Flaws
+- C Expert Programming
+- C and Pointer
+- "C Programming" (Tam Ho-keung)
 
-获取方式：**关注微信公众号【不会编程的程序圆】** ，后台回复  **【cbook】** ，即可获得下载链接
-
-</div>
-
-
-
-
+How to get it: **Follow the WeChat public account [Program Circle that can't be programmed],** and reply [**cbook]** in the background to get the download link
